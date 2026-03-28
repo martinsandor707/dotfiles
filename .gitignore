@@ -1,0 +1,52 @@
+# 1. Ignore EVERYTHING in this directory by default
+/*
+
+# 2. Explicitly allow this .gitignore file
+!/.gitignore
+
+# 3. Explicitly allow core Hyprland and Wayland ecosystem configs
+!/hypr/
+!/waybar/
+!/mako/
+!/wofi/
+!/swaylock/
+!/swappy/
+!/swaync/
+!/wpaperd/
+!/kanshi/
+
+# 4. Explicitly allow Garuda/nwg ecosystem tools (GTK theming/launchers)
+!/nwg-look/
+!/nwg-drawer/
+!/nwg-launchers/
+!/nwg-dock-hyprland/
+
+# 5. Explicitly allow Terminals and Shell
+!/alacritty/
+!/kitty/
+!/foot/
+!/fish/
+!/starship.toml
+!/starship_cat.toml
+
+# 6. Explicitly allow core CLI/TUI tools & Editors
+!/nvim/
+!/micro/
+!/btop/
+!/cava/
+
+# 7. Explicitly allow GTK/Qt configuration
+!/gtk-2.0/
+!/gtk-3.0/
+!/gtk-4.0/
+!/qt5ct/
+!/qt6ct/
+!/Kvantum/
+
+# 8. Ignore common cache, state, and backup files WITHIN the allowed directories
+**/.DS_Store
+**/*~
+**/*.bak
+**/*.swp
+**/__pycache__/
+**/*.log

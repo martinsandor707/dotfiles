@@ -1,0 +1,8 @@
+window.ThunarWindow {
+  font-size: 18pt;
+}
+
+ menu, menuitem {
+    padding: 8px 12px; /* top/bottom, left/right */
+    font-size: 16pt;
+}

@@ -1,0 +1,4 @@
+[default]
+path = "/usr/share/wallpapers/wh40k/"
+duration = "1h"
+transition-time = 600
