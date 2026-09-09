@@ -10,7 +10,7 @@ if status is-interactive
     end
     if test "$TERM" != linux
         starship init fish | source
-        enable_transience
+        # enable_transience
     end
 
     # Colors
@@ -42,15 +42,3 @@ alias ghw='export GH_CONFIG_DIR=/home/martin/.config/gh-work; gh auth status; gi
 set -x EDITOR /usr/bin/nvim
 set -x PGADMIN_DEFAULT_EMAIL "martinsandor707@gmail.com"
 set -x PGADMIN_DEFAULT_PASSWORD password
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-if test -f /opt/miniconda3/bin/conda
-    eval /opt/miniconda3/bin/conda "shell.fish" hook $argv | source
-else
-    if test -f "/opt/miniconda3/etc/fish/conf.d/conda.fish"
-        . "/opt/miniconda3/etc/fish/conf.d/conda.fish"
-    else
-        set -x PATH /opt/miniconda3/bin $PATH
-    end
-end
-# <<< conda initialize <<<
